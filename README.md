@@ -1,6 +1,6 @@
 # Community
 ## 项目介绍
-一个仿照牛客网实现的讨论社区，不仅实现了基本的注册，登录，发帖，评论，点赞，回复功能，同时使用前缀树实现敏感词过滤，使用wkhtmltopdf生成长图和pdf，实现网站UV和DAU统计，并将用户头像等信息存于七牛云服务器。
+实现了基本的注册，登录，发帖，评论，点赞，回复功能，同时使用前缀树实现敏感词过滤，使用wkhtmltopdf生成长图和pdf，实现网站UV和DAU统计，并将用户头像等信息存于七牛云服务器。
 
 ## 功能简介
 1. 使用Spring Security 做权限控制，替代拦截器的拦截控制，并使用自己的认证方案替代Security 认证流程，使权限认证和控制更加方便灵活。<br>
@@ -16,6 +16,6 @@ Mysql	5.7	https://www.mysql.com/ <br>
 Redis	3.2	https://redis.io/download <br>
 Elasticsearch	6.4.3	https://www.elastic.co/downloads <br>
 Kafka	2.3.0	https://kafka.apache.org/downloads <br>
-nginx	1.10	http://nginx.org/en/download.html <br>
+
 
 
